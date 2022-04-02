@@ -1,0 +1,24 @@
+/** @format */
+html{
+    font-size: 62.5%;
+    //rem is 16px for 1rem 
+    //using font-size 62.5% makes 1rem equal 10px
+}
+
+body {
+  
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: default;
+}
+
+.is-active{
+    font-weight: bold;
+}
